@@ -1,64 +1,88 @@
+@media only screen and (max-width: 600px){
 header{
     width: auto;
-}
-header img {
-    margin: 15px auto 10px;
-    display: block;
-}
-header h1 {
+    border: solid black;
+    border-width: 5px;
+    background-color:rgb(106, 106, 199);
     text-align: center;
-    
-    font-size: 40px;
-    color: darkred;
-  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 30px;
 }
 main{
-    justify-content: center;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: auto;
+    background-color: rgb(71, 71, 255);
+    border: solid black;
+    border-width: 5px;
     font-size: 20px;
+}
+main h4{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    border: solid black;
+}
+footer{
+    border: solid black;
+    border-width: 5px;
+    background-color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.price{
+    list-style: none;
+    font-size: 20px;
+}
+.price img{
+    align-content: center;
+    width: 200px;
+}
+}
+@media only screen and (min-width: 600px){
+header{
+    width: auto;
+    border: solid black;
+    border-width: 5px;
+    background-color:rgb(255, 0, 0);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+main{
+    width: auto;
+    background-color: #c20000;
+    border: solid black;
+    border-width: 5px;
+    font-size: 20px;
+}
+main h4{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    border: solid black;
+}
+footer{
+    border: solid black;
+    border-width: 5px;
+    background-color: blue;
+}
+.price{
+    list-style: none;
+    font-size: 20px;
+    font-style: oblique;
     font-weight: bold;
 }
-.price {
-    list-style: none;
+.price img{
+    align-content: center;
+    width: 400px;
 }
-#coins {
-    margin: 5px;
-    display: inline;
-}
-#totalCost {
-    display: inline;
-}
-footer {
-    text-align: center;
-    justify-content: space-evenly;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    cursor: pointer;
-    color: darkred;
-}
-footer p {
-    padding: 3px;
-}
-
-@media only screen and (min-width: 550px){
-    header{
-        font-size: 60px;
-        background-color: white;
-    }
-    body{
-        background-color: black;
-    }
-    main{
-        background-color: white;
-    }
-    footer {
-        padding: 50px;
-        background-color: white;
-    }
 }

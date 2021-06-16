@@ -6,7 +6,7 @@ function it(num1, num2) {
 
 function totalCost(e){
     e.preventDefault();
-
+ 
     let numberOfbagels = it(form.bagels.value, 3);
     let numberOftea = it(form.tea.value, 7);
     let numberOfcoffee = it(form.coffee.value, 11);
